@@ -24,15 +24,15 @@ flowchart TD
     classDef zkp fill:#10b981,stroke:#fff,stroke-width:2px,color:#fff;
     classDef llm fill:#f59e0b,stroke:#fff,stroke-width:2px,color:#fff;
 
-    Orch[Horizon 2035 Orchestrator (Python)]:::orchestrator
+    Orch["Horizon 2035 Orchestrator (Python)"]:::orchestrator
     
-    Orch --> PQC[Módulo Post-Quantum Cryptography]:::pqc
-    Orch --> ZKP[Motor Autenticación ZKP / Zero-Trust]:::zkp
-    Orch --> LLM[OWASP LLM Security & Honeypot]:::llm
+    Orch --> PQC["Módulo Post-Quantum Cryptography"]:::pqc
+    Orch --> ZKP["Motor Autenticación ZKP / Zero-Trust"]:::zkp
+    Orch --> LLM["OWASP LLM Security & Honeypot"]:::llm
     
-    PQC -.-> Crypto(Validación de Algoritmos PQC)
-    ZKP -.-> Auth(Auditoría de Identidad)
-    LLM -.-> Sec(Auditoría de Inyecciones de Prompt)
+    PQC -.-> Crypto("Validación de Algoritmos PQC")
+    ZKP -.-> Auth("Auditoría de Identidad")
+    LLM -.-> Sec("Auditoría de Inyecciones de Prompt")
 ```
 
 ---
