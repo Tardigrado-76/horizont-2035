@@ -1,15 +1,21 @@
-# Horizon 2035
+# 🌌 Horizon 2035
 
-[![Quantum Resilience](https://img.shields.io/badge/Security-Post--Quantum-blue.svg)]()
-[![Zero-Trust](https://img.shields.io/badge/Architecture-Zero--Trust-green.svg)]()
-[![LLM Security](https://img.shields.io/badge/OWASP-LLM--Honeypot-orange.svg)]()
+[![Quantum Resilience](https://img.shields.io/badge/Security-Post--Quantum-blue.svg)](https://csrc.nist.gov/projects/post-quantum-cryptography)
+[![Zero-Trust](https://img.shields.io/badge/Architecture-Zero--Trust-green.svg)](https://www.ncsc.gov.uk/collection/zero-trust-architecture)
+[![LLM Security](https://img.shields.io/badge/OWASP-LLM--Honeypot-orange.svg)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 
-## 📌 Resumen Ejecutivo
-**Horizon 2035** es un orquestador automatizado diseñado para la evaluación y validación de tecnologías emergentes críticas. Focalizado en ciberseguridad avanzada, permite la simulación, despliegue y auditoría de **Tecnologías Poscuánticas**, **Autenticación Zero-Knowledge Proof (ZKP)** en arquitecturas Zero-Trust, y el diseño de **Honeypots para LLMs** (Large Language Models) basados en los estándares de OWASP.
+> **Orquestador automatizado diseñado para la evaluación y validación de tecnologías emergentes críticas. Focalizado en ciberseguridad avanzada, permite la simulación, despliegue y auditoría de Tecnologías Poscuánticas, Autenticación Zero-Knowledge Proof (ZKP) en arquitecturas Zero-Trust, y el diseño de Honeypots para LLMs (Large Language Models) basados en los estándares de OWASP.**
 
 ---
 
-## 🏗️ Arquitectura de la Solución (Mermaid)
+## 🎯 Executive Overview
+
+El panorama de amenazas actual exige respuestas proactivas frente a saltos tecnológicos disruptivos como la computación cuántica y los modelos de lenguaje a gran escala. **Horizon 2035** asegura que la infraestructura crítica corporativa esté preparada para mitigar riesgos sistémicos mediante validación continua, garantizando un escudo resiliente en arquitecturas Zero-Trust.
+
+---
+
+## 🏗️ System Architecture (Mermaid)
 
 ```mermaid
 flowchart TD
